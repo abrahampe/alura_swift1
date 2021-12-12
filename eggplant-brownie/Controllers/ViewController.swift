@@ -26,8 +26,6 @@ class ViewController: UIViewController {
             
             if let grade: Int = Int(mealGrade){
                 let meal = Meal(name: name, grade: grade)
-                print(meal.name)
-                print(meal.grade)
                 
                 delegate?.addMeal(meal)
                 navigationController?.popViewController(animated: true)

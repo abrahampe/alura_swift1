@@ -7,11 +7,11 @@
 
 import UIKit
 
-protocol ViewControllerDelegate {
+protocol AddMealDelegate {
     func addMeal(_ meal: Meal)
 }
 
-class MealsTableViewController: UITableViewController, ViewControllerDelegate {
+class MealsTableViewController: UITableViewController, AddMealDelegate {
   
     var meals = [
         Meal(name: "Macarrão", grade: 5),
