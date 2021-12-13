@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB46D492766DC8D006274A6 /* AddItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB46D472766DC8D006274A6 /* AddItensViewController.swift */; };
+		3AB46D4A2766DC8D006274A6 /* AddItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB46D482766DC8D006274A6 /* AddItensViewController.xib */; };
 		3AEA212F275EB641001B1B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA212E275EB641001B1B5F /* AppDelegate.swift */; };
 		3AEA2131275EB641001B1B5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA2130275EB641001B1B5F /* SceneDelegate.swift */; };
 		3AEA2133275EB641001B1B5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA2132275EB641001B1B5F /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AB46D472766DC8D006274A6 /* AddItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItensViewController.swift; sourceTree = "<group>"; };
+		3AB46D482766DC8D006274A6 /* AddItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddItensViewController.xib; sourceTree = "<group>"; };
 		3AEA212B275EB641001B1B5F /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEA212E275EB641001B1B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AEA2130275EB641001B1B5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		3AF198D4276036E9004E08B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3AB46D482766DC8D006274A6 /* AddItensViewController.xib */,
 				3AEA2134275EB641001B1B5F /* Main.storyboard */,
 			);
 			path = Views;
@@ -95,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3AEA2132275EB641001B1B5F /* ViewController.swift */,
+				3AB46D472766DC8D006274A6 /* AddItensViewController.swift */,
 				3AF198DA2762FCC1004E08B0 /* MealsTableViewController.swift */,
 			);
 			path = Controllers;
@@ -160,6 +166,7 @@
 			files = (
 				3AEA213B275EB644001B1B5F /* LaunchScreen.storyboard in Resources */,
 				3AEA2138275EB644001B1B5F /* Assets.xcassets in Resources */,
+				3AB46D4A2766DC8D006274A6 /* AddItensViewController.xib in Resources */,
 				3AEA2136275EB641001B1B5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +183,7 @@
 				3AF198DB2762FCC1004E08B0 /* MealsTableViewController.swift in Sources */,
 				3AEA2133275EB641001B1B5F /* ViewController.swift in Sources */,
 				3AEA212F275EB641001B1B5F /* AppDelegate.swift in Sources */,
+				3AB46D492766DC8D006274A6 /* AddItensViewController.swift in Sources */,
 				3AEA2131275EB641001B1B5F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
