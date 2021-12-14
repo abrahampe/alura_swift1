@@ -31,24 +31,7 @@ class AddItensViewController: UIViewController {
         super.init(coder: aDecoder)
     }
     
-    // MARK: - IBActions
     
-    @IBAction func addItems(_ sender: UIButton) {
-
-guard let name = nameField.text, let calories = caloriesField.text else { return }
-
-     
-            if let calories = Double(calories){
-                let item = Item(name: name, calories: calories)
-                delegate?.add(item)
-                if let navigation = navigationController {
-                    navigation.popViewController(animated: true)
-                }
-            }
-          
-  
-        
-    }
     
     // MARK: - VIEW LIFECYCLE
     override func viewDidLoad() {
@@ -64,11 +47,27 @@ guard let name = nameField.text, let calories = caloriesField.text else { return
         guard let name = nameField.text, let calories = caloriesField.text else {
             return
         }
-        if let calories = Double(calories) {
-            let item = Item(name: name, calories: calories)
-            delegate?.add(item)
+        
+        do  {
+
+            
+            
+            if let calories = Double(calories) {
+                let item = Item(name: name, calories: calories)
+                delegate?.add(item)
+                Alert(controller: self).show(title: "Information", message: "Daddy liked it ")
+                
+            } else {
+                Alert(controller: self).show(title: "Erro", message: "Calorias inválidas")
+            }
+         
+        } catch {
+            Alert(controller: self).show(title: "Erro", message: "Calorias inválidas")
         }
+        
         navigationController?.popViewController(animated: true)
+        
+        
     }
     
     

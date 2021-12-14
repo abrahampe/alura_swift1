@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A82E198276853A500004880 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82E197276853A500004880 /* Alert.swift */; };
 		3AB46D492766DC8D006274A6 /* AddItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB46D472766DC8D006274A6 /* AddItensViewController.swift */; };
 		3AB46D4A2766DC8D006274A6 /* AddItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB46D482766DC8D006274A6 /* AddItensViewController.xib */; };
 		3AEA212F275EB641001B1B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA212E275EB641001B1B5F /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A82E197276853A500004880 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		3AB46D472766DC8D006274A6 /* AddItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItensViewController.swift; sourceTree = "<group>"; };
 		3AB46D482766DC8D006274A6 /* AddItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddItensViewController.xib; sourceTree = "<group>"; };
 		3AEA212B275EB641001B1B5F /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 			children = (
 				3AF198D627603750004E08B0 /* Meal.swift */,
 				3AF198D82760376A004E08B0 /* Item.swift */,
+				3A82E197276853A500004880 /* Alert.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				3AEA2133275EB641001B1B5F /* ViewController.swift in Sources */,
 				3AEA212F275EB641001B1B5F /* AppDelegate.swift in Sources */,
 				3AB46D492766DC8D006274A6 /* AddItensViewController.swift in Sources */,
+				3A82E198276853A500004880 /* Alert.swift in Sources */,
 				3AEA2131275EB641001B1B5F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

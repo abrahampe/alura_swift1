@@ -30,4 +30,13 @@ class Meal: NSObject {
         return total
     }
 
+    func details() -> String {
+        var message = "Refeição: \(name) - Felicidade: \(grade) - Total Calories: \(totalCalories())"
+        for item in items {
+            message += "\n\t\(item.name) - Calories: \(item.calories)"
+        }
+        
+        return message
+    }
+
 }
