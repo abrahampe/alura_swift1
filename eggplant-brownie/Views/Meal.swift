@@ -7,7 +7,19 @@
 
 import UIKit
 
-class Meal: NSObject {
+class Meal: NSObject, NSCoding {
+    func encode(with coder: NSCoder) {
+        coder.encode(name, forKey: "name")
+        coder.encode(grade, forKey: "grade")
+        coder.encode(items, forKey: "items")
+    }
+    
+    required init?(coder: NSCoder) {
+       name = coder.decodeObject(forKey: "name") as! String
+        grade = coder.decodeInteger(forKey: "grade")
+        items = coder.decodeInteger(forKey: "items") as! Array<Item>
+    }
+    
 
     let name: String
     let grade: Int
